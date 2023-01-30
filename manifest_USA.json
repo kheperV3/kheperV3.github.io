@@ -1,0 +1,21 @@
+{
+  "name": "Radio Maria for USA",
+  "version": "1.0",
+  "home_assistant_domain": "slim_player",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/USA1.bin", "offset": 0 },
+        { "path": "firmware/USA2.bin", "offset": 524288 },
+        { "path": "firmware/USA3.bin", "offset": 1048576 },
+        { "path": "firmware/USA4.bin", "offset": 1572864 },
+        { "path": "firmware/USA5.bin", "offset": 2097152 },
+        { "path": "firmware/USA6.bin", "offset": 2621440 },
+        { "path": "firmware/USA7.bin", "offset": 3145728},
+        { "path": "firmware/USA8.bin", "offset": 3670016 }
+
+      ]
+    }
+  ]
+}

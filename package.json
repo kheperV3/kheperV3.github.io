@@ -1,0 +1,34 @@
+{
+  "name": "improv-wifi-serial-sdk",
+  "version": "2.2.2",
+  "description": "Improv Wi-Fi Serial SDK for the browser",
+  "main": "dist/serial-launch-button.js",
+  "repository": "https://github.com/improv-wifi/sdk-serial-js",
+  "author": "Improv Wi-Fi maintainers",
+  "license": "Apache-2.0",
+  "scripts": {
+    "prepublishOnly": "script/build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/w3c-web-serial": "^1.0.1",
+    "prettier": "^2.3.0",
+    "rollup": "^2.48.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "serve": "^14.0.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@material/mwc-button": "^0.26.1",
+    "@material/mwc-circular-progress": "^0.26.1",
+    "@material/mwc-dialog": "^0.26.1",
+    "@material/mwc-list": "^0.26.1",
+    "@material/mwc-select": "^0.26.1",
+    "@material/mwc-textfield": "^0.26.1",
+    "improv-wifi-sdk": "^1.3.3",
+    "improv-wifi-serial-sdk": "^2.2.2",
+    "lit": "^2.0.0",
+    "tslib": "^2.3.1"
+  }
+}
